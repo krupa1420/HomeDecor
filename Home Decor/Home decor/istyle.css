@@ -1,0 +1,129 @@
+body{
+  font-family: 'Arial';
+  height: 100%;
+}
+.aside{
+  margin-left: 260px;
+  margin-top: 10px;
+  position: relative;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1365xpx;
+  width:auto;
+  border: 1px solid white;    
+}
+
+
+
+#hello{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  position: center;
+
+}
+#hello1{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#info{
+  color:black;
+  background-color: white;
+  opacity: 0.5;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 920px;
+  height: 200px;
+  position: relative;
+}
+.image1
+{
+  background-image: url("Images/img1.jpg");
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-top: 5px;
+  height:450px ;
+  width:650px;
+  animation: slide1 15s infinite;
+}
+@keyframes 
+slide1{
+  100%{
+    background-image: url("Images/img2.jpg");
+  }
+  100%{
+    background-image: url("Images/img3.jpg");
+  }
+  100%{
+   background-image: url("Images/img4.jpg");
+  }
+  100%{
+    background-image: url("Images/img5.jpg");
+  }
+}
+.image2
+{
+  border: 1px solid white;
+  height:200px ;
+  width:300px;
+  
+}
+.image3
+{
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-top: 10px;
+  height:200px;
+  width:300px;
+
+}
+/* designer data */
+
+.ddata{
+  margin-left: 260px;
+  margin-top: 10px;
+  position: relative;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,242,1) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1300px;
+  width:auto;
+  font-size: 20px;
+  border: 1px solid white;  
+
+}
+
+/* photp gallery */
+
+.photo{
+  margin-top: 10px;
+  margin-left: 260px;
+  position: relative;
+  background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1300px;
+  width:auto;
+  border: 1px solid black;    
+}
+
+#hellop{
+  color: black;
+  font-family:fantasy;
+  font-size: 40px;
+  position: relative;
+}
+
